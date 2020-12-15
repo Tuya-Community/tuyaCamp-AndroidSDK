@@ -1,0 +1,11 @@
+*.iml
+.DS_Store
+.externalNativeBuild
+/local.properties
+/build
+/captures
+/.gradle
+/.idea
+app/src/main/assets/t_s.bmp
+app/build.gradle
+app/src/main/AndroidManifest.xml
