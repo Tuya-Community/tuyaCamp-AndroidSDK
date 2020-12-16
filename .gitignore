@@ -31,7 +31,6 @@ proguard.cfg
 proguard-project.txt
 
 #Gradle
-.gradle
 build/
 /captures/
 /android/

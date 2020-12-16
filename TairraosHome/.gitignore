@@ -7,5 +7,4 @@
 /.gradle
 /.idea
 app/src/main/assets/t_s.bmp
-app/build.gradle
 app/src/main/AndroidManifest.xml
