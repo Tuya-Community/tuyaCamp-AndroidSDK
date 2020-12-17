@@ -1,10 +1,13 @@
 *.iml
-.DS_Store
-.externalNativeBuild
+.gradle
 /local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
 /build
 /captures
-/.gradle
-/.idea
+.externalNativeBuild
+.idea
 app/src/main/assets/t_s.bmp
 app/src/main/AndroidManifest.xml
