@@ -1,20 +1,16 @@
-package com.tuya.smart.android.demo;
+package com.tairraos.xmatrix;
 
 import android.app.Activity;
 import android.app.ActivityManager;
-import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 
 import androidx.multidex.MultiDexApplication;
 
 import com.tuya.smart.android.common.utils.L;
-import com.tuya.smart.android.demo.camera.utils.FrescoManager;
-import com.tuya.smart.android.demo.login.activity.LoginActivity;
-import com.tuya.smart.android.network.IApiUrlProvider;
-import com.tuya.smart.android.network.TuyaSmartNetWork;
+import com.tairraos.xmatrix.camera.utils.FrescoManager;
+import com.tairraos.xmatrix.login.activity.LoginActivity;
 import com.tuya.smart.home.sdk.TuyaHomeSdk;
-import com.tuya.smart.sdk.TuyaSdk;
 import com.tuya.smart.sdk.api.INeedLoginListener;
 
 
