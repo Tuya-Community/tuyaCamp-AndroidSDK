@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.tuya.smart.android.demo.camera.CameraCloudVideoActivity">
+    tools:context="com.tairraos.xmatrix.camera.CameraCloudVideoActivity">
 
 
     <com.tuya.smart.camera.middleware.widget.TuyaCameraView

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/gray"
-    tools:context="com.tuya.smart.android.demo.shortcut.ShortcutOperateDeviceActivity">
+    tools:context="com.tairraos.xmatrix.shortcut.ShortcutOperateDeviceActivity">
 
     <TextView
         android:id="@+id/tv_device_name"

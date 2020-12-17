@@ -35,7 +35,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/mg_100">
 
-        <com.tuya.smart.android.demo.base.widget.LampView
+        <com.tairraos.xmatrix.base.widget.LampView
             android:id="@+id/picker"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -20,7 +20,7 @@
 
     <view
         android:id="@+id/np__numberpicker_input"
-        class="com.tuya.smart.android.demo.test.widget.NumberPicker$CustomEditText"
+        class="com.tairraos.xmatrix.test.widget.NumberPicker$CustomEditText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@null"
