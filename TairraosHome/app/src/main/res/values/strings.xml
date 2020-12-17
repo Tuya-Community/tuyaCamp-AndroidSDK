@@ -8,7 +8,7 @@
         <item>study</item>
     </array>
 
-    <string name="app_name">TuyaSmart-Test</string>
+    <string name="app_name">Xiaole IOT</string>
     <string name="action_settings">Settings</string>
     <string name="device_list">Device list</string>
     <string name="share_list">Share list</string>
@@ -229,7 +229,7 @@
     <string name="content_device_offline">Pleases check or try:\n1. if the device powered on\n2. if Wi-Fi available\n3. Reset the device</string>
     <string name="control_data_error">DP data error</string>
     <string name="control_data_error_code">11001</string>
-    <string name="copy_right">©2015 Tuya Inc. All Rights Reserved</string>
+    <string name="copy_right">©2020 Tuya Inc. and Xiaole IOT All Rights Reserved</string>
     <string name="current_version">Current version</string>
     <string name="custom_day">Customize</string>
     <string name="delete_member_tips">Sure not to share device with%s?</string>

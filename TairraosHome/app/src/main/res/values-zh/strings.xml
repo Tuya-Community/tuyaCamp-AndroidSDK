@@ -187,7 +187,7 @@
     <string name="add_new_user_tip">添加新成员使用智能设备</string>
     <string name="add_next_device">再添加一个</string>
     <string name="ap_mode">热点模式</string>
-    <string name="app_name">涂鸦测试</string>
+    <string name="app_name">西奥智能</string>
     <string name="bind_device_cancel">否</string>
     <string name="bind_device_confirm">是</string>
     <string name="bind_device_failure"><![CDATA[<font color="#FF5800">查看可能失败的原因</font>]]></string>
@@ -219,13 +219,10 @@
     <string name="connect_to_wifi">连接Wi-Fi</string>
     <string name="connect_to_wifi_failure">连接热点失败，查看是否密码输入正确</string>
     <string name="connect_to_wifi_tip">接通设备电源，选择可用的Wi-Fi网络，智能设备将使用该无线网络上网。</string>
-    <string name="connectedto">Connected to</string>
-    <string name="connecting">Connecting to</string>
-    <string name="connectionError">An error occurred connecting to</string>
     <string name="content_device_offline">请检查或尝试:\n1.设备连接电源是否正常；\n2.Wi-Fi网络是否正常；\n3.重置设备,重新添加。</string>
     <string name="control_data_error">DP格式错误</string>
     <string name="control_data_error_code">11001</string>
-    <string name="copy_right">©2015 Tuya Inc. All Rights Reserved</string>
+    <string name="copy_right">©2020 涂鸦智能/西奥智能联合版权所有</string>
     <string name="current_version">当前版本</string>
     <string name="custom_day">自定义</string>
     <string name="delete_member_tips">确认不再共享设备给%s?</string>
@@ -235,8 +232,6 @@
     <string name="device_has_unbinded">设备已移除</string>
     <string name="device_on_off">设备开关</string>
     <string name="device_reset">设备重置</string>
-    <string name="disconnected">Disconnected from</string>
-    <string name="disconnecting">Disconnecting from</string>
     <string name="done">完成</string>
     <string name="download_error_with_md5_unrectify">md5验证错误，下载失败</string>
     <string name="download_unzip_error">ui界面包解压缩失败</string>
@@ -310,7 +305,7 @@
     <string name="no_device_found">设备不存在</string>
     <string name="no_device_in_this_gw">该网关下没有设备</string>
     <string name="no_share">暂未共享设备给任何人</string>
-    <string name="no_status">Unknown connection status to</string>
+    <string name="no_status">"连接状态未知: "</string>
     <string name="no_timer_data">没有定时数据</string>
     <string name="no_update">无更新</string>
     <string name="once_day">永不</string>
@@ -678,5 +673,10 @@
     <string name="lamp_close_tip">点击关闭</string>
     <string name="lamp_open_failure">打开灯失败</string>
     <string name="lamp_close_failure">关闭灯失败</string>
+    <string name="disconnected">"已从此处断开: "</string>
+    <string name="disconnecting">"正在从此处断开： "</string>
+    <string name="connectedto">"已连接至: "</string>
+    <string name="connecting">"正在连接: "</string>
+    <string name="connectionError">"连接时发生错误: "</string>
 
 </resources>

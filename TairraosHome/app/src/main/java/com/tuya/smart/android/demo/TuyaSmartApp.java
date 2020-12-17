@@ -28,7 +28,7 @@ public class TuyaSmartApp extends MultiDexApplication {
         context = this;
         L.d(TAG, "onCreate " + getProcessName(this));
 
-        TuyaHomeSdk.setDebugMode(true);
+        TuyaHomeSdk.setDebugMode(false);
         TuyaHomeSdk.init(this);
         TuyaHomeSdk.setOnNeedLoginListener(new INeedLoginListener() {
             @Override
