@@ -6,7 +6,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.tairraos.xmatrix.TuyaSmartApp;
+import com.tairraos.xmatrix.TuyaCampApp;
 
 import java.lang.reflect.Field;
 
@@ -27,7 +27,7 @@ public class SizeUtils {
      */
     public static int dp2px(float dpValue) {
        
-        float scale = TuyaSmartApp.getAppContext().getResources().getDisplayMetrics().density;
+        float scale = TuyaCampApp.getAppContext().getResources().getDisplayMetrics().density;
         return (int) (dpValue * scale + 0.5f);
     }
 
@@ -38,7 +38,7 @@ public class SizeUtils {
      * @return dp值
      */
     public static int px2dp(float pxValue) {
-        float scale = TuyaSmartApp.getAppContext().getResources().getDisplayMetrics().density;
+        float scale = TuyaCampApp.getAppContext().getResources().getDisplayMetrics().density;
         return (int) (pxValue / scale + 0.5f);
     }
 
@@ -50,7 +50,7 @@ public class SizeUtils {
      * @return px值
      */
     public static int sp2px(float spValue) {
-        float fontScale = TuyaSmartApp.getAppContext().getResources().getDisplayMetrics().scaledDensity;
+        float fontScale = TuyaCampApp.getAppContext().getResources().getDisplayMetrics().scaledDensity;
         return (int) (spValue * fontScale + 0.5f);
     }
 
@@ -61,7 +61,7 @@ public class SizeUtils {
      * @return sp值
      */
     public static int px2sp(float pxValue) {
-        float fontScale = TuyaSmartApp.getAppContext().getResources().getDisplayMetrics().scaledDensity;
+        float fontScale = TuyaCampApp.getAppContext().getResources().getDisplayMetrics().scaledDensity;
         return (int) (pxValue / fontScale + 0.5f);
     }
 
@@ -173,12 +173,12 @@ public class SizeUtils {
     }
 
     public static int getWidth() {
-        int width = TuyaSmartApp.getAppContext().getResources().getDisplayMetrics().widthPixels;
+        int width = TuyaCampApp.getAppContext().getResources().getDisplayMetrics().widthPixels;
         return width;
     }
 
     public static int getHeight() {
-        int height = TuyaSmartApp.getAppContext().getResources().getDisplayMetrics().heightPixels;
+        int height = TuyaCampApp.getAppContext().getResources().getDisplayMetrics().heightPixels;
         return height;
     }
 
@@ -198,7 +198,7 @@ public class SizeUtils {
             obj = c.newInstance();
             field = c.getField("status_bar_height");
             x = Integer.parseInt(field.get(obj).toString());
-            sbar = TuyaSmartApp.getAppContext().getResources().getDimensionPixelSize(x);
+            sbar = TuyaCampApp.getAppContext().getResources().getDimensionPixelSize(x);
         } catch (Exception e1) {
             e1.printStackTrace();
         }
@@ -207,7 +207,7 @@ public class SizeUtils {
 
 
     public static int getNavigationBarHeight() {
-        Resources resources = TuyaSmartApp.getAppContext().getResources();
+        Resources resources = TuyaCampApp.getAppContext().getResources();
         int resourceId = resources.getIdentifier("navigation_bar_height", "dimen", "android");
         int height = resources.getDimensionPixelSize(resourceId);
         return height;

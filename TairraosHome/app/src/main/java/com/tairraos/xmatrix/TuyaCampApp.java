@@ -1,5 +1,6 @@
 package com.tairraos.xmatrix;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
@@ -14,9 +15,9 @@ import com.tuya.smart.home.sdk.TuyaHomeSdk;
 import com.tuya.smart.sdk.api.INeedLoginListener;
 
 
-public class TuyaSmartApp extends MultiDexApplication {
+public class TuyaCampApp extends MultiDexApplication {
 
-    private static final String TAG = "TuyaSmartApp";
+    private static final String TAG = "TuyaCampApp";
 
     @Override
     public void onCreate() {
@@ -52,6 +53,7 @@ public class TuyaSmartApp extends MultiDexApplication {
         return "";
     }
 
+    @SuppressLint("StaticFieldLeak")
     private static Context context;
 
     public static Context getAppContext() {
