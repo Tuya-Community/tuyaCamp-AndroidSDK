@@ -82,6 +82,7 @@ public class LampActivity extends BaseActivity implements ILampView {
             mLampViewTip.setVisibility(View.VISIBLE);
         }
         mLampViewTip.setText(R.string.lamp_close_tip);
+        mLampViewTip.setTextColor(0x99000000);
     }
 
     @Override
@@ -93,6 +94,7 @@ public class LampActivity extends BaseActivity implements ILampView {
         mLampCloseLight.setVisibility(View.VISIBLE);
         mLampViewTip.setVisibility(View.VISIBLE);
         mLampViewTip.setText(R.string.lamp_open_tip);
+        mLampViewTip.setTextColor(0x99FFFFFF);
         if (mLampModeViewTip.getVisibility() != View.GONE) {
             mLampModeViewTip.setVisibility(View.GONE);
         }

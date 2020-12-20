@@ -671,7 +671,7 @@
     <string name="lamp_color_light_max">加亮</string>
     <string name="lamp_color_light_min">减暗</string>
     <string name="lamp_scene_leisure">放松</string>
-    <string name="lamp_open_tip">点击打开</string>
+    <string name="lamp_open_tip">" 点击打开\n"</string>
     <string name="lamp_close_tip">点击关闭</string>
     <string name="lamp_open_failure">打开灯失败</string>
     <string name="lamp_close_failure">关闭灯失败</string>

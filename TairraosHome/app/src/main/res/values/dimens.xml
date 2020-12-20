@@ -144,6 +144,7 @@
     <dimen name="lamp_bar_text_width">80dp</dimen>
     <dimen name="edit_saturation_seekbar_height">2dp</dimen>
     <dimen name="wh_300">300dp</dimen>
+    <dimen name="wh_320">320dp</dimen>
     <dimen name="lamp_width">80dp</dimen>
     <dimen name="lamp_height">109dp</dimen>
 
