@@ -5,6 +5,8 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.TextView;
+//import android.transition.TransitionManager;
+//import android.view.ViewGroup;
 
 import com.tairraos.xmatrix.R;
 import com.tairraos.xmatrix.base.activity.BaseActivity;
@@ -23,6 +25,10 @@ public class LampActivity extends BaseActivity implements ILampView {
 
     private static final String TAG = "LampActivity";
     protected LampPresenter mLampPresenter;
+
+
+    @BindView(R.id.activity_lamp_container)
+    public View mLampContainer;
 
     @BindView(R.id.picker)
     public LampView mLampView;
@@ -68,6 +74,7 @@ public class LampActivity extends BaseActivity implements ILampView {
 
     @Override
     public void showLampView() {
+//        final ViewGroup transitionsBackground = (ViewGroup)findViewById(R.id.activity_lamp_container);
         if (mLampView.getVisibility() != View.VISIBLE) {
             mLampView.setVisibility(View.VISIBLE);
         }
@@ -83,6 +90,9 @@ public class LampActivity extends BaseActivity implements ILampView {
         }
         mLampViewTip.setText(R.string.lamp_close_tip);
         mLampViewTip.setTextColor(0x99000000);
+
+//        TransitionManager.beginDelayedTransition((ViewGroup)mLampContainer);
+        mLampContainer.setBackground(getResources().getDrawable(R.drawable.background));
     }
 
     @Override
@@ -95,6 +105,7 @@ public class LampActivity extends BaseActivity implements ILampView {
         mLampViewTip.setVisibility(View.VISIBLE);
         mLampViewTip.setText(R.string.lamp_open_tip);
         mLampViewTip.setTextColor(0x99FFFFFF);
+        mLampContainer.setBackground(getResources().getDrawable(R.drawable.bg_lamp));
         if (mLampModeViewTip.getVisibility() != View.GONE) {
             mLampModeViewTip.setVisibility(View.GONE);
         }
