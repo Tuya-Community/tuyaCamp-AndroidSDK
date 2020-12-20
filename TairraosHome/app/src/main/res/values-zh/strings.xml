@@ -680,5 +680,10 @@
     <string name="connectedto">"已连接至: "</string>
     <string name="connecting">"正在连接: "</string>
     <string name="connectionError">"连接时发生错误: "</string>
+    <string name="action_scene_1">晚安场景</string>
+    <string name="action_scene_2">工作场景</string>
+    <string name="action_scene_3">阅读场景</string>
+    <string name="action_scene_4">休闲场景</string>
+
 
 </resources>
