@@ -664,8 +664,10 @@
     <string name="lamp_color_saturation">色彩模式</string>
     <string name="lamp_color_temper_low">冷色</string>
     <string name="lamp_color_temper_high">暖色</string>
+    <string name="lamp_color_saturation_label">色彩饱合</string>
     <string name="lamp_color_saturation_max">彩色</string>
     <string name="lamp_color_saturation_min">平白</string>
+    <string name="lamp_color_light_label">灯光亮度</string>
     <string name="lamp_color_light_max">加亮</string>
     <string name="lamp_color_light_min">减暗</string>
     <string name="lamp_scene_leisure">放松</string>

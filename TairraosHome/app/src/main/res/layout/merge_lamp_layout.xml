@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/tv_lamp_color_mode"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_below="@+id/action_bar_layout"
         android:layout_centerHorizontal="true"
         android:text="@string/lamp_color_saturation"
@@ -33,13 +33,12 @@
         android:layout_height="@dimen/wh_300"
         android:layout_below="@+id/toolbar_top_view"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/mg_100">
+        android:layout_marginTop="@dimen/mg_50">
 
         <com.tairraos.xmatrix.base.widget.LampView
             android:id="@+id/picker"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_centerInParent="true"
             app:lamp_height="@dimen/lamp_height"
             app:lamp_width="@dimen/lamp_width" />
 
