@@ -1,5 +1,5 @@
 ### 涂鸦 Android APP 实战营项目
-项目基于涂鸦 Android APP SDK 构建，参考了涂鸦SDK自带的Demo工程。
+项目基于涂鸦 Android APP SDK 构建，参考了涂鸦SDK自带的Demo工程。使用Android Studio打开TairraosHome目录作为app项目的根目录即可二次开发（继续开发）。
 
 ### 项目说明
 - 由于APP实战营时间较紧，我没有Android开发经验，一开就把目标锁定在熟悉产品控制代码和编写美观UI两个焦点
