@@ -4,10 +4,10 @@
 请在此页面下载Release包测试： [Github Release Page](https://github.com/Tairraos/tuyaCamp-AndroidSDK/releases/tag/0.1)
 
 ### 界面截图
-![封面](screenshot/P1.png)
-![设备列表](screenshot/P2.png)
-![关闭状态](screenshot/P3.png)
-![开启控制状态](screenshot/P4.png)
+<img src="screenshot/P1.png" width = "50%" height = "50%" alt="封面" /> 
+<img src="screenshot/P3.png" width = "50%" height = "50%" alt="关闭状态" /> 
+<img src="screenshot/P4.png" width = "50%" height = "50%" alt="开启控制状态" /> 
+
 ### 项目说明
 - 由于APP实战营时间较紧，我没有Android开发经验，一开就把目标锁定在熟悉产品控制代码和编写美观UI两个焦点
 - 通过读 Lamp demo 基本把目标所需要的知识都看会了
