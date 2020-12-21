@@ -4,9 +4,7 @@
 请在此页面下载Release包测试： [Github Release Page](https://github.com/Tairraos/tuyaCamp-AndroidSDK/releases/tag/0.1)
 
 ### 界面截图
-<img src="screenshot/P1.png" height="500" alt="封面" /> 
-<img src="screenshot/P3.png" height="500" alt="关闭状态" /> 
-<img src="screenshot/P4.png" height="500" alt="开启控制状态" /> 
+<img src="screenshot/P1.png" height="500" alt="封面" /> <img src="screenshot/P3.png" height="500" alt="关闭状态" /> <img src="screenshot/P4.png" height="500" alt="开启控制状态" /> 
 
 ### 项目说明
 - 由于APP实战营时间较紧，我没有Android开发经验，一开就把目标锁定在熟悉产品控制代码和编写美观UI两个焦点
