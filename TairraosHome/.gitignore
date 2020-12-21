@@ -4,6 +4,7 @@
 .idea
 .externalNativeBuild
 local.properties
+local.properties.ci
 build
 app/build
 app/release
