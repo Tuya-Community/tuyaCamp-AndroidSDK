@@ -2,9 +2,9 @@
 项目基于涂鸦 Android APP SDK 构建，参考了涂鸦SDK自带的Demo工程。使用Android Studio打开TairraosHome目录作为app项目的根目录即可二次开发（继续开发）。  
 由于安全原因，没有上传 AndroidManifest.xml 和安全图片。需要的同学请至[涂鸦AndroidSDK](https://github.com/tuya/tuya-home-android-sdk)获取模板。
 
-### 下载测试
-请在此页面下载Release包测试： [Github Release Page](https://github.com/Tairraos/tuyaCamp-AndroidSDK/releases/tag/0.1)
-
+### 视频及测试
+请在此页面下载Release包测试： [Github Release Page](https://github.com/Tairraos/tuyaCamp-AndroidSDK/releases/tag/0.1)  
+演示视频: https://www.bilibili.com/video/BV1jX4y1u7Mw/
 ### 界面截图
 <img src="screenshot/P1.png" height="700" alt="封面" /> <img src="screenshot/P3.png" height="700" alt="关闭状态" />
 <img src="screenshot/P4.png" height="700" alt="开启控制状态" /> <img src="screenshot/P5.png" height="700" alt="桌面图标" />
