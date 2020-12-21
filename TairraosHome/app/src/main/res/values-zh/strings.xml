@@ -684,6 +684,8 @@
     <string name="action_scene_2">工作场景</string>
     <string name="action_scene_3">阅读场景</string>
     <string name="action_scene_4">休闲场景</string>
+    <string name="action_scene_5">彩虹变幻</string>
+    <string name="action_scene_6">绿色呼吸</string>
 
 
 </resources>

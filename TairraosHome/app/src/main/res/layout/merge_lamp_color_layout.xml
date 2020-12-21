@@ -75,7 +75,7 @@
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginLeft="@dimen/lamp_bar_margin_left"
         android:layout_marginRight="@dimen/lamp_bar_margin_left"
-        android:layout_marginBottom="160dp"
+        android:layout_marginBottom="180dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:visibility="visible">
@@ -110,7 +110,7 @@
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginLeft="@dimen/lamp_bar_margin_left"
         android:layout_marginRight="@dimen/lamp_bar_margin_left"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="110dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:visibility="visible">
@@ -133,6 +133,41 @@
             android:gravity="center"
             android:background="@drawable/btn_bg"
             android:text="@string/action_scene_4"
+            android:textColor="#ddd"
+            android:textSize="@dimen/ts_16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_lamp_action3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="@dimen/lamp_bar_margin_left"
+        android:layout_marginRight="@dimen/lamp_bar_margin_left"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/action_scene_5"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@drawable/btn_bg"
+            android:text="@string/action_scene_5"
+            android:textColor="#ddd"
+            android:textSize="@dimen/ts_16" />
+
+        <TextView
+            android:id="@+id/action_scene_6"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:background="@drawable/btn_bg"
+            android:text="@string/action_scene_6"
             android:textColor="#ddd"
             android:textSize="@dimen/ts_16" />
 

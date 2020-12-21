@@ -11,7 +11,11 @@ import com.tuya.smart.centralcontrol.TuyaLightDevice;
 import com.tuya.smart.sdk.api.IResultCallback;
 import com.tuya.smart.sdk.centralcontrol.api.ILightListener;
 import com.tuya.smart.sdk.centralcontrol.api.bean.LightDataPoint;
+import com.tuya.smart.sdk.centralcontrol.api.constants.LightScene;
+import com.tuya.smart.sdk.centralcontrol.api.constants.LightMode;
 import com.tuya.smart.sdk.centralcontrol.parser.bean.LightColourData;
+
+import java.util.HashMap;
 
 
 /**
@@ -37,12 +41,10 @@ public class LampPresenter extends BasePresenter implements ILightListener {
         mLightDevice.powerSwitch(false, new IResultCallback() {
             @Override
             public void onError(String code, String error) {
-
             }
 
             @Override
             public void onSuccess() {
-
             }
         });
     }
@@ -54,12 +56,10 @@ public class LampPresenter extends BasePresenter implements ILightListener {
         mLightDevice.powerSwitch(true, new IResultCallback() {
             @Override
             public void onError(String code, String error) {
-
             }
 
             @Override
             public void onSuccess() {
-
             }
         });
     }
@@ -116,7 +116,6 @@ public class LampPresenter extends BasePresenter implements ILightListener {
         mIsOpenLastStatus = isOpen;
     }
 
-
     public void onClickLampSwitch() {
         boolean isOpen = mLightDevice.getLightDataPoint().powerSwitch;
         if (isOpen) {
@@ -126,6 +125,81 @@ public class LampPresenter extends BasePresenter implements ILightListener {
         }
     }
 
+    public void onScene1Active() {
+        mLightDevice.scene(LightScene.SCENE_GOODNIGHT, new IResultCallback() {
+            @Override
+            public void onError(String code, String error) {
+            }
+
+            @Override
+            public void onSuccess() {
+            }
+        });
+    }
+
+    public void onScene2Active() {
+        mLightDevice.scene(LightScene.SCENE_WORK, new IResultCallback() {
+            @Override
+            public void onError(String code, String error) {
+            }
+
+            @Override
+            public void onSuccess() {
+            }
+        });
+    }
+
+    public void onScene3Active() {
+        mLightDevice.scene(LightScene.SCENE_READ, new IResultCallback() {
+            @Override
+            public void onError(String code, String error) {
+            }
+
+            @Override
+            public void onSuccess() {
+            }
+        });
+    }
+
+    public void onScene4Active() {
+        mLightDevice.scene(LightScene.SCENE_CASUAL, new IResultCallback() {
+            @Override
+            public void onError(String code, String error) {
+            }
+
+            @Override
+            public void onSuccess() {
+            }
+        });
+    }
+
+    public void onScene5Active() {
+        HashMap<String, Object> dpCodeMap = new HashMap<>();
+        dpCodeMap.put("work_mode", "scene_4");
+        mLightDevice.publishCommands(dpCodeMap, new IResultCallback() {
+            @Override
+            public void onError(String code, String error) {
+            }
+
+            @Override
+            public void onSuccess() {
+            }
+        });
+    }
+
+    public void onScene6Active() {
+        HashMap<String, Object> dpCodeMap = new HashMap<>();
+        dpCodeMap.put("work_mode", "scene_1");
+        mLightDevice.publishCommands(dpCodeMap, new IResultCallback() {
+            @Override
+            public void onError(String code, String error) {
+            }
+
+            @Override
+            public void onSuccess() {
+            }
+        });
+    }
 
     public void hideOperation() {
         mLampOperationColorFactory.hideOperationView();

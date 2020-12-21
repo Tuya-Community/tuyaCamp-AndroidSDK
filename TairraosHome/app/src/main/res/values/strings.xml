@@ -684,5 +684,7 @@
     <string name="action_scene_2">Working</string>
     <string name="action_scene_3">Reading</string>
     <string name="action_scene_4">Relaxation</string>
+    <string name="action_scene_6">Breathing</string>
+    <string name="action_scene_5">Chromatic</string>
 
 </resources>

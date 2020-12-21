@@ -45,9 +45,26 @@ public class LampActivity extends BaseActivity implements ILampView {
     @BindView(R.id.tv_lamp_color_mode)
     public TextView mLampModeViewTip;
 
-
     @BindView(R.id.fl_lamp_white_operation)
     public View mOperationView;
+
+    @BindView(R.id.action_scene_1)
+    public TextView action_scene_1;
+
+    @BindView(R.id.action_scene_2)
+    public TextView action_scene_2;
+
+    @BindView(R.id.action_scene_3)
+    public TextView action_scene_3;
+
+    @BindView(R.id.action_scene_4)
+    public TextView action_scene_4;
+
+    @BindView(R.id.action_scene_5)
+    public TextView action_scene_5;
+
+    @BindView(R.id.action_scene_6)
+    public TextView action_scene_6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -155,30 +172,34 @@ public class LampActivity extends BaseActivity implements ILampView {
         mLampPresenter.onClickLampSwitch();
     }
 
+    @OnClick(R.id.action_scene_1)
+    public void action_scene_1() {
+        mLampPresenter.onScene1Active();
+    }
+    @OnClick(R.id.action_scene_2)
+    public void action_scene_2() {
+        mLampPresenter.onScene2Active();
+    }
+    @OnClick(R.id.action_scene_3)
+    public void action_scene_3() {
+        mLampPresenter.onScene3Active();
+    }
+    @OnClick(R.id.action_scene_4)
+    public void action_scene_4() {
+        mLampPresenter.onScene4Active();
+    }
+    @OnClick(R.id.action_scene_5)
+    public void action_scene_5() {
+        mLampPresenter.onScene5Active();
+    }
+    @OnClick(R.id.action_scene_6)
+    public void action_scene_6() {
+        mLampPresenter.onScene6Active();
+    }
+
     @OnClick(R.id.ll_lamp_bottom_operation)
     public void onClickArrawUp() {
-        AnimationUtil.translateView(mOperationView, Animation.RELATIVE_TO_SELF, 0f,
-            Animation.RELATIVE_TO_SELF, 0f,
-            Animation.RELATIVE_TO_SELF, 0f,
-            Animation.RELATIVE_TO_SELF, 1f, 300, false, new Animation.AnimationListener() {
-                @Override
-                public void onAnimationStart(Animation animation) {
 
-                }
-
-                @Override
-                public void onAnimationEnd(Animation animation) {
-                    mOperationView.setVisibility(View.GONE);
-                    mLampViewTip.setVisibility(View.VISIBLE);
-                    mLampPresenter.hideOperation();
-
-                }
-
-                @Override
-                public void onAnimationRepeat(Animation animation) {
-
-                }
-            });
     }
 
 
