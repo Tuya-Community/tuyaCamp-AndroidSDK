@@ -48,9 +48,3 @@ For more information, please check [Tuya Developer Website](https://developer.tu
 - 全程做了图片笔记，分享给群里的其它同学，希望有更多加发者能走到一起，营造出健康的开发生态
 - 纯 AndroidNative 开发不具跨平台特性，所有画好的控制类ios设备还需要再次开发调试
 - 有空还要再接触一下涂鸦的RN面板SDK
-
-#### Comment
-
-This project is developed using Tuya App SDK, which enables you to quickly develop branded apps connecting and controlling smart scenarios of many devices.
-
-For more information, please check [Tuya Developer Website](https://developer.tuya.com/en/docs/iot/app-development/sdk-development/app-sdk-instruction).
