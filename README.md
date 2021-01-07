@@ -1,15 +1,24 @@
+This project wins the Tuya App SDK Camp Competition in Dec, 2020 by 陶然. It's developed using [Tuya Android Home App SDK](https://github.com/tuya/tuya-home-android-sdk), which enables you to quickly develop branded apps connecting and controlling smart scenarios of many devices.
+
+For more information, please check [Tuya Developer Website](https://developer.tuya.com/cn/).
+
 ### 涂鸦 Android APP 实战营项目
+
 项目基于涂鸦 Android APP SDK 构建，参考了涂鸦SDK自带的Demo工程。使用Android Studio打开TairraosHome目录作为app项目的根目录即可二次开发（继续开发）。  
 由于安全原因，没有上传 AndroidManifest.xml 和安全图片。需要的同学请至[涂鸦AndroidSDK](https://github.com/tuya/tuya-home-android-sdk)获取模板。
 
 ### 视频及测试
+
 请在此页面下载Release包测试： [Github Release Page](https://github.com/Tairraos/tuyaCamp-AndroidSDK/releases/tag/0.1)  
 演示视频: https://www.bilibili.com/video/BV1jX4y1u7Mw/
+
 ### 界面截图
+
 <img src="screenshot/P1.png" height="700" alt="封面" /> <img src="screenshot/P3.png" height="700" alt="关闭状态" />
 <img src="screenshot/P4.png" height="700" alt="开启控制状态" /> <img src="screenshot/P5.png" height="700" alt="桌面图标" />
 
 ### 项目说明
+
 - 由于APP实战营时间较紧，我没有Android开发经验，一开就把目标锁定在熟悉产品控制代码和编写美观UI两个焦点
 - 通过读 Lamp demo 基本把目标所需要的知识都看会了
 - 代码里没有对标准DP command调用，龙马表示这是隐藏小怪兽，也已经挖掘成功
@@ -20,6 +29,7 @@
 - 功能：添加了一组6个快捷按钮可以快速速发出6种灯光功能（其中有4个通过SDK封装的场景调用实现，有2通过标准DP命令调用实现）
 
 ### 学习所得 （Android App)
+
 - 开发环境配置
 - Build 带签名的APK
 - 模拟器调试，真机调试，Release APK安装
@@ -31,6 +41,7 @@
 - XML UI Layout
 
 ### 心得
+
 - 涂鸦 Android APP SDK自带Demo已经完成了注册，登录，配网，智能化的大部分代码
 - SDK对DP直接调用的封装使开发代码更加简单，语义化的封装对整理代码逻辑很有帮助
 - 对涂鸦 Android SDK repo 提交了几个PR，修正Lint扫描提醒和i18n资源的问题
